@@ -1,0 +1,24 @@
+This is a small Python script to display (my)timetable of current day's classes
+
+#Open Terminal(Ctrl+Alt+T) type following commands 
+
+cd Downloads
+sudo mv "timetable.py" /opt
+sudo ln -s "/opt/timetable.py" /usr/bin/tt
+
+#Now type 'tt' to see the time table
+
+#You'll see timetable of the current day like this:
+
+	"TIME                         *MON"
+	-----------------------------------
+	08:00 AM  |Object  Design Modeling|
+	09:00 AM  |Object  Design Modeling|
+	10:30 AM  |        FREE           |
+	11:30 AM  |    Comp Networks      |
+	12:30 PM  |Artificial Intelligence|
+	-----------------------------------
+	>>
+
+# Hit Enter to see next day's timetable and any other key to exit
+
